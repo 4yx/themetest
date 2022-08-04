@@ -581,37 +581,37 @@ html[dir="rtl"] #stats #statsSection .limits-wrapper{
         height:60px
     }
 }
-body[data-app-key="home"] #content{
+body #content{
     background:#f7f8fa
 }
-body[data-app-key="home"] #jump-search{
+body #jump-search{
     display:none
 }
-body[data-app-key="home"] .welcome-wrapper{
+body .welcome-wrapper{
     margin-top:0;
     margin-bottom:15px
 }
-body[data-app-key="home"] #boxes{
+body #boxes{
     margin-top:-10px
 }
-body[data-app-key="home"] #boxes .panel{
+body #boxes .panel{
     background:#fff;
     border:0;
     border-radius:4px;
     box-shadow:0 3px 10px rgba(10,37,64,0.05);
     transition:box-shadow .5s
 }
-body[data-app-key="home"] #boxes .panel:hover{
+body #boxes .panel:hover{
     box-shadow:0 3px 10px rgba(10,37,64,0.25)
 }
-body[data-app-key="home"] #boxes .icon-container-body{
+body #boxes .icon-container-body{
     display:flex;
     flex-direction:column;
     justify-content:center;
     padding:0
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .icon-container-body{
+    body #boxes .icon-container-body{
         flex-direction:row;
         flex-wrap:wrap;
         justify-content:flex-start;
@@ -619,72 +619,72 @@ body[data-app-key="home"] #boxes .icon-container-body{
         padding-top:15px;
         padding-bottom:5px
     }
-    html[dir="ltr"] body[data-app-key="home"] #boxes .icon-container-body{
+    html[dir="ltr"] body #boxes .icon-container-body{
         padding-left:35px
     }
-    html[dir="rtl"] body[data-app-key="home"] #boxes .icon-container-body{
+    html[dir="rtl"] body #boxes .icon-container-body{
         padding-right:35px
     }
 }
-body[data-app-key="home"] #boxes .item{
+body #boxes .item{
     height:auto;
     width:auto;
     border-top:1px solid #e4e9f2
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .item{
+    body #boxes .item{
         min-height:3em;
         width:200px;
         border-top:0
     }
 }
-body[data-app-key="home"] #boxes .itemImageWrapper{
+body #boxes .itemImageWrapper{
     display:none
 }
-body[data-app-key="home"] #boxes .itemTextWrapper{
+body #boxes .itemTextWrapper{
     width:100%;
     height:100%;
     margin:0;
     padding:1em 5px 1em 5px;
     color:#365aa2
 }
-html[dir="ltr"] body[data-app-key="home"] #boxes .itemTextWrapper{
+html[dir="ltr"] body #boxes .itemTextWrapper{
     padding-left:40px
 }
 @media(min-width:576px) and (min-height:576px){
-    html[dir="ltr"] body[data-app-key="home"] #boxes .itemTextWrapper{
+    html[dir="ltr"] body #boxes .itemTextWrapper{
         padding:5px
     }
 }
-html[dir="rtl"] body[data-app-key="home"] #boxes .itemTextWrapper{
+html[dir="rtl"] body #boxes .itemTextWrapper{
     padding-right:40px
 }
 @media(min-width:576px) and (min-height:576px){
-    html[dir="rtl"] body[data-app-key="home"] #boxes .itemTextWrapper{
+    html[dir="rtl"] body #boxes .itemTextWrapper{
         padding:5px
     }
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .itemTextWrapper{
+    body #boxes .itemTextWrapper{
         height:auto;
         width:auto;
         margin-bottom:15px
     }
-    html[dir="ltr"] body[data-app-key="home"] #boxes .itemTextWrapper{
+    html[dir="ltr"] body #boxes .itemTextWrapper{
         margin-right:1em
     }
-    html[dir="rtl"] body[data-app-key="home"] #boxes .itemTextWrapper{
+    html[dir="rtl"] body #boxes .itemTextWrapper{
         margin-left:1em
     }
 }
-body[data-app-key="home"] #boxes .itemTextWrapper:hover,body[data-app-key="home"] #boxes .itemTextWrapper:active,body[data-app-key="home"] #boxes .itemTextWrapper:focus{
+body #boxes .itemTextWrapper:hover,body #boxes .itemTextWrapper:active,body #boxes .itemTextWrapper:focus{
     color:#2d5ef2
 }
-body[data-app-key="home"] #boxes .itemTextWrapper:hover,body[data-app-key="home"] #boxes .itemTextWrapper:active,body[data-app-key="home"] #boxes .itemTextWrapper:focus{
+body #boxes .itemTextWrapper:hover,body #boxes .itemTextWrapper:active,body #boxes .itemTextWrapper:focus{
     background:#f7f9fc
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .itemTextWrapper:hover,body[data-app-key="home"] #boxes .itemTextWrapper:active,body[data-app-key="home"] #boxes .itemTextWrapper:focus{
+    body #boxes .itemTextWrapper:hover,body #boxes .itemTextWrapper:active,body #boxes .itemTextWrapper:focus{
         background:0
     }
 }
@@ -698,15 +698,15 @@ body[data-app-key="home"] #boxes .itemTextWrapper:hover,body[data-app-key="home"
     padding-bottom:22px
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .panel-heading{
+    body #boxes .panel-heading{
         padding-top:18px;
         padding-bottom:18px
     }
 }
-body[data-app-key="home"] #boxes .panel-heading .group-header{
+body #boxes .panel-heading .group-header{
     font-weight:600
 }
-body[data-app-key="home"] #boxes .panel-heading .group-header:before{
+body #boxes .panel-heading .group-header:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f7d9";
@@ -714,72 +714,72 @@ body[data-app-key="home"] #boxes .panel-heading .group-header:before{
     display:inline-block;
     width:25px
 }
-body[data-app-key="home"] #boxes .panel-heading .group-files:before{
+body #boxes .panel-heading .group-files:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f07c"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-databases:before{
+body #boxes .panel-heading .group-databases:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f1c0"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-domains:before{
+body #boxes .panel-heading .group-domains:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f0ac"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-email:before{
+body #boxes .panel-heading .group-email:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f0e0"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-metrics:before{
+body #boxes .panel-heading .group-metrics:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f201"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-security:before{
+body #boxes .panel-heading .group-security:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f3ed"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-software:before{
+body #boxes .panel-heading .group-software:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f5fc"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-advanced:before{
+body #boxes .panel-heading .group-advanced:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f085"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-preferences:before{
+body #boxes .panel-heading .group-preferences:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f1de"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-sample_apps:before{
+body #boxes .panel-heading .group-sample_apps:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f492"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-applications:before{
+body #boxes .panel-heading .group-applications:before{
     font-family:"Font Awesome 5 Free";
     font-weight:900;
     content:"\f009"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-header-indicator{
+body #boxes .panel-heading .group-header-indicator{
     color:#8f9bb3
 }
-body[data-app-key="home"] #boxes .panel-heading .group-header-indicator.fa-minus:before{
+body #boxes .panel-heading .group-header-indicator.fa-minus:before{
     content:"\f077"
 }
-body[data-app-key="home"] #boxes .panel-heading .group-header-indicator.fa-plus:before{
+body #boxes .panel-heading .group-header-indicator.fa-plus:before{
     content:"\f078"
 }
 @media(min-width:576px) and (min-height:576px){
-    body[data-app-key="home"] #boxes .panel-body{
+    body #boxes .panel-body{
         border-top:1px solid #e4e9f2
     }
 }
