@@ -3,7 +3,7 @@ body {
     line-height: inherit;
     font-size: 12px;
     background-color: #e6e6e6;
-    background-image: url("images/ui_sprites_bg_snap_to_smallest_width.png");
+    background-image: url("img/ui_sprites_bg_snap_to_smallest_width.png");
     background-repeat: repeat-x;
     padding-top: 10px;
     background-position: 0 -1609px;
@@ -73,7 +73,7 @@ aside {
     /* preventing responsiveness to smaller screen sizes because X3 doesn't do that */
     width: 750px;
     padding: 15px 15px 60px 15px;
-    background: url(images/heading_sprites_compleximg.png)
+    background: url(img/heading_sprites_compleximg.png)
         top left #ffffff;
     background-repeat: repeat-x;
     border: 3px ridge #cccccc;
@@ -197,7 +197,7 @@ html[dir="rtl"] .navbar-preferences {
     left: -15px;
     height: 35px;
     width: 35px;
-    background: url(images/heading_sprites_img.png);
+    background: url(img/heading_sprites_img.png);
     background-position: 0 -74px;
 }
 
@@ -209,7 +209,7 @@ html[dir="rtl"] .navbar-preferences {
     left: -15px;
     height: 35px;
     width: 35px;
-    background: url(images/heading_sprites_img.png);
+    background: url(img/heading_sprites_img.png);
     background-position: 0 -111px;
 }
 
@@ -224,7 +224,7 @@ html[dir="rtl"] #lnkHeaderHome {
     top: -4px;
     height: 35px;
     width: 35px;
-    background: url(images/heading_sprites_img.png);
+    background: url(img/heading_sprites_img.png);
     background-position: 0 -148px;
 }
 
@@ -235,7 +235,7 @@ html[dir="rtl"] #lnkHeaderHome {
     top: -4px;
     height: 35px;
     width: 35px;
-    background: url(images/heading_sprites_img.png);
+    background: url(img/heading_sprites_img.png);
     background-position: 0 -185px;
 }
 
@@ -311,7 +311,7 @@ span.input-group-addon {
 .section-header {
     width: 100%;
     padding: 0;
-    background: url(images/tbl-bg.jpg) repeat-x bottom;
+    background: url(img/tbl-bg.jpg) repeat-x bottom;
     /* old browsers */
     background: -moz-linear-gradient(
         top,
@@ -387,7 +387,7 @@ span.input-group-addon {
 .widget-heading {
     width: 100%;
     padding: 0;
-    background: url(images/tbl-bg.jpg) repeat-x bottom;
+    background: url(img/tbl-bg.jpg) repeat-x bottom;
     /* old browsers */
     background: -moz-linear-gradient(
         top,
@@ -598,7 +598,7 @@ label {
 .btn-default[disabled]:active,
 .btn-default.active[disabled],
 .input-button {
-    background-image: url(images/ui_sprites_bg_snap_to_smallest_width.png);
+    background-image: url(img/ui_sprites_bg_snap_to_smallest_width.png);
     background-position: 0 -322px;
     height: 22px;
     font-weight: normal;
@@ -623,7 +623,7 @@ label {
 }
 
 .input-button {
-    background-image: url(images/ui_sprites_bg_snap_to_smallest_width.png) !important;
+    background-image: url(img/ui_sprites_bg_snap_to_smallest_width.png) !important;
     background-position: 0 -322px !important;
     height: 22px !important;
     font-weight: normal !important;
@@ -664,12 +664,6 @@ label {
 
 #retroSetDefault {
     padding: 0 10px;
-}
-
-.integrations_icon {
-    width: 32px;
-    height: 32px;
-    background-size: 32px 32px;
 }
 
 /* HACK: legacy cjt pager for paper lantern */
